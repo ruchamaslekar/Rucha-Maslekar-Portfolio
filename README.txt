@@ -1,22 +1,33 @@
 Name: Rucha Maslekar
-Student ID: 20768287
 
-Final Project Overview:
-- I developed a personal portfolio website showcasing my professional journey, education, experience, and projects. 
-- The website features dynamic content, powered by MongoDB for data management, and utilizes animation to enhance the user experience. 
-- The website is built with a combination of technologies including HTML5, CSS3, JavaScript, Node.js, Express.js, and MongoDB.
+1. Clone the Project Repository(Not required for this project)
+- Clone the repository to your local machine using the following command:
+bash
+- Run the command : git clone [repository-url]
+- Replace [repository-url] with the actual URL of the repository
 
-Challenges Faced:
-- Integrating MongoDB with the project required careful planning and schema design, which was a bit challenging initially.
-- Ensuring a consistent design across multiple pages while keeping the user interface engaging was also challenging.
-- Managing animations and ensuring that they were synchronized with the content display took some trial and error.
+2. Install Dependencies 
+- Navigate to the project directory:
+- Run the command : cd Web_app
+- Install the required npm packages:
+- Run the command : npm install
 
+3. Setup Configuration
+- Ensure that the config.js file is correctly set up with your MongoDB connection string and server information. 
+- This file is located in the modules folder.
+- MongoDB username: Rmaslekar
+- MongoDB password: Rucha
 
-Resources Used:
-- Online documentation for Express.js
-- MongoDB documentation for database setup and schema design.
-- MDN Web Docs for HTML5, CSS3, and JavaScript references.
-- Stack Overflow for troubleshooting and community support.
+4. Start MongoDB
+- Ensure MongoDB is installed and running on your local machine.
 
-Help Received:
-- Refered class slides and course material.
+5. Install Express to run the application
+- Run the command : npm install Express
+
+6. Start the Application
+- Run the application with the following command:
+- Run the command : npm app.js
+- The application should now be running on the specified port (check the config.js file for the correct port).
+
+7. Access the Application
+- Open your web browser and go to: http://localhost:3000/
